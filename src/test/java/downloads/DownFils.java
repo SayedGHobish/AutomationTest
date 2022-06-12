@@ -23,10 +23,11 @@ public class DownFils extends TestBais6 {
 	public void downFromWeb() throws InterruptedException
 	{
 		downObj = new DownloadFils(driver);
-		/*JavascriptExecutor js = (JavascriptExecutor) driver;
+		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].click();", downObj.button);
+		
 		JavascriptExecutor art = (JavascriptExecutor) driver;
-		art.executeScript("arguments[0].click();", downObj.diss);*/
+		art.executeScript("arguments[0].click();", downObj.diss);
 
 		JavascriptExecutor down = (JavascriptExecutor) driver;
 		down.executeScript("arguments[0].click();", downObj.Button);
@@ -36,6 +37,6 @@ public class DownFils extends TestBais6 {
 	public void closeUrl()
 
 	{
-		//	driver.quit();
+		driver.quit();
 	}
 }
