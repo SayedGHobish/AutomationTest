@@ -11,13 +11,14 @@ public class DownloadFils extends PageBais{
 	}
 
 	
-	/*@FindBy(className = "btnDL")
+	@FindBy(className = "btnDL")
 	public
 	WebElement button;
 	
 	@FindBy(xpath = "/html/body/div/div/div[1]/div[1]/div/svg")
 	public
-	WebElement diss;*/
+	WebElement diss;
+	
 	@FindBy(className = "btnDL")
 	public
 	WebElement Button;
