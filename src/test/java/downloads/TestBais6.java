@@ -29,7 +29,7 @@ public class TestBais6 {
 	{
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver(chromeOptions());
-		driver.navigate().to("https://www.vertex42.com/Files/download2/themed.php?file=gantt-chart_L.xlsx");
+		driver.navigate().to("https://www.vertex42.com/ExcelTemplates/excel-gantt-chart.html");
 		driver.manage().window().maximize();
 	}
 }
